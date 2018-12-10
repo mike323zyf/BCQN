@@ -1,1 +1,3 @@
 # BCQN
+
+This is the accompanying code for SIGGRAPH 2018 paper, Blended Cured Quasi Newton for Distortion Optimization. In this repo, we include three solvers, BCQN, AQP and PN, for both 2D and 3D applications. The code is composed of both Matlab and C++. To run the code, you need to mex all C++ codes first. We already provide a Matlab file called "compileAllMex.m" where you have to specify library locations, including Eigen, LibIGL and TBB.
